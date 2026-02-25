@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es" class="light dark">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <title>PWA con Lista</title>
+
+ <meta name="description" content="Ejemplo de PWA con Material Design">
+
+ <script type="module" src="js/lib/registraServiceWorker.js"></script>
+
+ <!--<meta name="viewport" content="width=device-width">-->
+
+ <!-- Soporte iOS PWA -->
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="default">
+ <meta name="apple-mobile-web-app-title" content="Ganttasticos">
+ <meta name="mobile-web-app-capable" content="yes">
+
+
+ <link rel="apple-touch-icon" href="img/icono2048.png">
+
+ <meta name="theme-color" content="#fffbfe">
+ <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+ <link rel="icon" sizes="32x32" href="favicon.ico">
+
+ <link rel="manifest" href="site.webmanifest">
+
+ <script src="ungap/custom-elements.js"></script>
+
+ <script type="module" src="js/lib/custom/md-app-bar.js"></script>
+ <script type="module" src="js/nav-tab-fixed.js"></script>
+
+ <link rel="stylesheet" href="css/estilos.css">
+ <link rel="stylesheet" href="css/transicion_pestanas.css">
+ <link rel="stylesheet" href="css/md-tab.css">
+ <link rel="stylesheet" href="css/material-symbols-outlined.css">
+ <link rel="stylesheet" href="css/md-list.css">
+
+</head>
+
+<body>
+
+ <md-app-bar class="centered" adicional="tab">
+  <h1>PWA con Lista</h1>
+ </md-app-bar>
+
+ <nav-tab-fixed id="tab"></nav-tab-fixed>
+
+ <section>
+
+  <ul class="md-list">
+
+ <li class="md-one-line avatar">
+  <div class="avatar-box">
+   <img alt="Hector" src="img/HECTOR.png">
+  </div>
+  <span class="headline">
+   Córdova Martínez Hector
+  </span>
+ </li>
+
+ <li class="md-one-line avatar">
+  <div class="avatar-box">
+   <img alt="Uriel" src="img/BALTA.png">
+  </div>
+  <span class="headline">
+   Baltazar Hernández Uriel
+  </span>
+ </li>
+
+ <li class="md-one-line avatar">
+  <div class="avatar-box">
+   <img alt="Amairani" src="img/ITATI.png">
+  </div>
+  <span class="headline">
+   Morales Loza Amairani Itati
+  </span>
+ </li>
+
+ <li class="md-one-line avatar">
+  <div class="avatar-box">
+   <img alt="Roberto" src="img/ROBER.png">
+  </div>
+  <span class="headline">
+   Pozos Fragoso Roberto
+  </span>
+ </li>
+
+ <li class="md-one-line avatar">
+  <div class="avatar-box">
+   <img alt="Vanessa" src="img/Vanne.png">
+  </div>
+  <span class="headline">
+   Ramirez Gonzales Vanessa Wendolyn
+  </span>
+ </li>
+
+ <li class="md-one-line avatar">
+  <div class="avatar-box">
+   <img alt="Jesús Ángel" src="img/MENDIETA.png">
+  </div>
+  <span class="headline">
+   Salazar Mendieta Jesús Ángel
+  </span>
+ </li>
+
+</ul>
+
+ </section>
+
+</body>
+
+</html>
